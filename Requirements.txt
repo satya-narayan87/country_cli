@@ -1,0 +1,4 @@
+########Requirements without version specified
+
+requests
+flask

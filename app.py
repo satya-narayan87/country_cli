@@ -2,6 +2,8 @@ from flask import Flask, jsonify
 from country_cli_data import *
 app = Flask(__name__)
 
+data =data_from_json()
+
 @app.route('/health')
 def health():
     return jsonify(status="healthy")

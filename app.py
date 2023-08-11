@@ -14,7 +14,7 @@ def diag():
     # Return the response as JSON
     return jsonify(api_status={"code": 200, "status": "ok"})
 
-# Modify your existing lookup_country_name function to work with Flask
+
 @app.route('/convert/<country_code>')
 def convert(country_code):
     country_name = search_country(country_code, data)

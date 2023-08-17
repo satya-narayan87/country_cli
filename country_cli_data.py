@@ -38,7 +38,7 @@ def main():
         print("Please Enter Minimum One Country Code to proceed further")
         return
 
-    data = data_to_json()
+    data = data_from_json()
 
     if not data:
         print("Fetching data from the API...")
